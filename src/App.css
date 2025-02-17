@@ -1,0 +1,93 @@
+.container {
+    background-color: rgb(230, 234, 238);
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and Buttons */
+  .input, .add-btn, .remove-btn {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+  }
+
+  .add-btn, .remove-btn{
+    background-color: rgba(29, 118, 253, 0.711);
+    color: white;
+    border-style: none;
+  }
+
+  .add-btn:hover, .remove-btn:hover{
+    background-color: rgba(7, 71, 169, 0.711);
+    color: white;
+    border-style: none;
+  }
+  
+  /* Todo List */
+  .todo-list {
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Checkbox Styling */
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Todo Count */
+  .todo-count {
+    text-align: left;
+    margin: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .todo-list {
+      font-size: 0.9rem;
+    }
+  
+    .todo-count {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .input, .add-btn, .remove-btn {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .todo-list {
+      font-size: 0.8rem;
+    }
+  
+    .checkbox {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
