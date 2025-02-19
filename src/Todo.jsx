@@ -29,5 +29,5 @@ export default function Todo({ todo, toggleTodo, deleteTodo, startEdit, saveEdit
         </>
       )}
     </div>
-  )
+  );
 }
