@@ -50,6 +50,7 @@
     height: 20px;
     margin-right: 10px;
     cursor: pointer;
+    flex-shrink: 0;
   }
   
   /* Todo Count */
@@ -98,16 +99,21 @@
     justify-content: space-between;
     padding: 8px;
     border-bottom: 1px solid #ccc;
+    gap: 10px;
   }
 
   .todo-text {
     flex-grow: 1;
     padding: 0 10px;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   
   .todo-buttons {
     display: flex;
     gap: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   
   .edit-input {
